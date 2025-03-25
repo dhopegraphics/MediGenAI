@@ -1,0 +1,12 @@
+# This space intentionally left blank
+# If you want to learn about why our robots.txt looks like this, read this post: https://yoa.st/robots-txt
+User-agent: *
+
+Disallow: /thank-you/
+Disallow: /time-spotlight-download-thankyou/
+Disallow: /thank-you-tempus-one/
+Disallow: /thank-you-tempus-download-case-study/
+Disallow: /blood-draw/
+Disallow: /neurology-psychiatry/genetic-test-2/
+Disallow: /neurology-psychiatry/genetic-test-2/order-form/
+Disallow: /life-sciences/qbu/
