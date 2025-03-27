@@ -1,0 +1,46 @@
+.grecaptcha-badge {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  @media only screen and (max-width: 580px) and (min-width: 1px) {
+    .page-template-template-patients-new .lab-section .row {
+      padding: 0;
+    }
+  }
+
+  .sitemap-container li {
+    display: block;
+  }
+
+  button.js-hamburger span {
+    display: none;
+  }
+
+  .access-st span {
+    display: none;
+  }
+
+  .access-st label {
+    display: none !important;
+  }
+
+  iframe {
+    border: 0 !important;
+  }
+
+  .page-crumb {
+    color: #000;
+  }
+
+  .page-crumb.black {
+    color: #000;
+  }
+
+  .page-crumb.white {
+    color: #fff;
+  }
+
+  .page-template-template-tempus-one {
+    background: #000;
+  }
