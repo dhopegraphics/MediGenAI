@@ -1,1 +1,153 @@
-class="yoast-schema-graph" > { "@context": "https://schema.org", "@graph": [{ "@type": "WebPage", "@id": "https://www.tempus.com/", "url": "https://www.tempus.com/", "name": "MedGenAi | AI-enabled precision medicine", "isPartOf": { "@id": "https://www.tempus.com/#website" }, "about": { "@id": "https://www.tempus.com/#organization" }, "datePublished": "2021-09-27T19:25:59+00:00", "dateModified": "2025-03-21T15:38:24+00:00", "description": "MedGenAi has built the world’s largest library of clinical & molecular data and an operating system to make that data accessible and useful, starting with cancer.", "breadcrumb": { "@id": "https://www.tempus.com/#breadcrumb" }, "inLanguage": "en-US", "potentialAction": [{ "@type": "ReadAction", "target": ["https://www.tempus.com/"] }] }, { "@type": "BreadcrumbList", "@id": "https://www.tempus.com/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }, { "@type": "WebSite", "@id": "https://www.tempus.com/#website", "url": "https://www.tempus.com/", "name": "Tempus", "description": "AI-enabled precision medicine", "publisher": { "@id": "https://www.tempus.com/#organization" }, "potentialAction": [{ "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://www.tempus.com/?s={search_term_string}" }, "query-input": { "@type": "PropertyValueSpecification", "valueRequired": true, "valueName": "search_term_string" } }], "inLanguage": "en-US" }, { "@type": "Organization", "@id": "https://www.tempus.com/#organization", "name": "MedGenAi", "url": "https://www.tempus.com/", "logo": { "@type": "ImageObject", "inLanguage": "en-US", "@id": "https://www.tempus.com/#/schema/logo/image/", "url": "https://www.tempus.com/wp-content/uploads/2018/05/tempus-logo.png", "contentUrl": "https://www.tempus.com/wp-content/uploads/2018/05/tempus-logo.png", "width": 506, "height": 75, "caption": "Tempus" }, "image": { "@id": "https://www.tempus.com/#/schema/logo/image/" }, "sameAs": ["https://www.facebook.com/tempuslabs/", "https://x.com/tempuslabs", "https://www.linkedin.com/company/tempus-health/", "https://www.youtube.com/channel/UCRGse_Ebap2YFG0dog7uSaA?view_as=subscriber"] }] }
+/* <![CDATA[ */
+window._wpemojiSettings = {
+  baseUrl: "https://s.w.org/images/core/emoji/15.0.3/72x72/",
+  ext: ".png",
+  svgUrl: "https://s.w.org/images/core/emoji/15.0.3/svg/",
+  svgExt: ".svg",
+  source: {
+    concatemoji:
+      "https://www.tempus.com/wp-includes/js/wp-emoji-release.min.js?ver=ed5511e3778127d4a3d42fdec9f40ed1",
+  },
+};
+/*! This file is auto-generated */
+!(function (i, n) {
+  var o, s, e;
+  function c(e) {
+    try {
+      var t = { supportTests: e, timestamp: new Date().valueOf() };
+      sessionStorage.setItem(o, JSON.stringify(t));
+    } catch (e) {}
+  }
+  function p(e, t, n) {
+    e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+    var t = new Uint32Array(
+        e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+      ),
+      r =
+        (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+        e.fillText(n, 0, 0),
+        new Uint32Array(
+          e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+        ));
+    return t.every(function (e, t) {
+      return e === r[t];
+    });
+  }
+  function u(e, t, n) {
+    switch (t) {
+      case "flag":
+        return n(
+          e,
+          "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+          "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+        )
+          ? !1
+          : !n(
+              e,
+              "\ud83c\uddfa\ud83c\uddf3",
+              "\ud83c\uddfa\u200b\ud83c\uddf3"
+            ) &&
+              !n(
+                e,
+                "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+              );
+      case "emoji":
+        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b");
+    }
+    return !1;
+  }
+  function f(e, t, n) {
+    var r =
+        "undefined" != typeof WorkerGlobalScope &&
+        self instanceof WorkerGlobalScope
+          ? new OffscreenCanvas(300, 150)
+          : i.createElement("canvas"),
+      a = r.getContext("2d", { willReadFrequently: !0 }),
+      o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+    return (
+      e.forEach(function (e) {
+        o[e] = t(a, e, n);
+      }),
+      o
+    );
+  }
+  function t(e) {
+    var t = i.createElement("script");
+    (t.src = e), (t.defer = !0), i.head.appendChild(t);
+  }
+  "undefined" != typeof Promise &&
+    ((o = "wpEmojiSettingsSupports"),
+    (s = ["flag", "emoji"]),
+    (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+    (e = new Promise(function (e) {
+      i.addEventListener("DOMContentLoaded", e, { once: !0 });
+    })),
+    new Promise(function (t) {
+      var n = (function () {
+        try {
+          var e = JSON.parse(sessionStorage.getItem(o));
+          if (
+            "object" == typeof e &&
+            "number" == typeof e.timestamp &&
+            new Date().valueOf() < e.timestamp + 604800 &&
+            "object" == typeof e.supportTests
+          )
+            return e.supportTests;
+        } catch (e) {}
+        return null;
+      })();
+      if (!n) {
+        if (
+          "undefined" != typeof Worker &&
+          "undefined" != typeof OffscreenCanvas &&
+          "undefined" != typeof URL &&
+          URL.createObjectURL &&
+          "undefined" != typeof Blob
+        )
+          try {
+            var e =
+                "postMessage(" +
+                f.toString() +
+                "(" +
+                [JSON.stringify(s), u.toString(), p.toString()].join(",") +
+                "));",
+              r = new Blob([e], { type: "text/javascript" }),
+              a = new Worker(URL.createObjectURL(r), {
+                name: "wpTestEmojiSupports",
+              });
+            return void (a.onmessage = function (e) {
+              c((n = e.data)), a.terminate(), t(n);
+            });
+          } catch (e) {}
+        c((n = f(s, u, p)));
+      }
+      t(n);
+    })
+      .then(function (e) {
+        for (var t in e)
+          (n.supports[t] = e[t]),
+            (n.supports.everything = n.supports.everything && n.supports[t]),
+            "flag" !== t &&
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && n.supports[t]);
+        (n.supports.everythingExceptFlag =
+          n.supports.everythingExceptFlag && !n.supports.flag),
+          (n.DOMReady = !1),
+          (n.readyCallback = function () {
+            n.DOMReady = !0;
+          });
+      })
+      .then(function () {
+        return e;
+      })
+      .then(function () {
+        var e;
+        n.supports.everything ||
+          (n.readyCallback(),
+          (e = n.source || {}).concatemoji
+            ? t(e.concatemoji)
+            : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+      }));
+})((window, document), window._wpemojiSettings);
+/* ]]> */
