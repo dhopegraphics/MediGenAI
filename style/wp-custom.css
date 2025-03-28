@@ -45,3 +45,22 @@ iframe {
 .page-template-template-tempus-one {
   background: #000;
 }
+
+.diagBtn {
+  background-color: rgb(24, 133, 211);
+  transition: all ease-in-out 0.3s;
+  color: white;
+  width: 100px; 
+  align-items: center; 
+  text-align: center; font-weight: 600; 
+  border-radius: 30px;
+   padding: 5px; 
+  position: absolute; 
+  left: 340px;
+}
+
+.diagBtn:hover {
+  background-color: #fff;
+  color: black;
+
+}
